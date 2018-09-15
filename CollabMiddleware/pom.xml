@@ -14,6 +14,19 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    
+    <!-- https://mvnrepository.com/artifact/org.springframework/spring-messaging -->
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-messaging</artifactId>
+    <version>4.0.0.RELEASE</version>
+</dependency>
+    
+    <dependency>
+     <groupId>com.niit</groupId>
+  <artifactId>CollabBackend</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+    </dependency>
   </dependencies>
   <build>
     <finalName>CollabMiddleware</finalName>
